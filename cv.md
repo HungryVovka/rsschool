@@ -55,4 +55,3 @@ function animals(heads, legs){
 * Izhevsk State Technical University (ISTU)
   + Bachelor, Economics
   + Magister, Finance and credit
-
