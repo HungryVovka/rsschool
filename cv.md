@@ -51,6 +51,7 @@ function animals(heads, legs){
   }
 }
 ```
+
 ## 👨‍🎓 Education
 * Izhevsk State Technical University (ISTU)
   + Bachelor, Economics
