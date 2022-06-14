@@ -1,42 +1,147 @@
-﻿<!DOCTYPE html>
-<html lang="ru">
-    <head>
-        <meta charset="utf-8">
-        <title>Задание CV#2</title>
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body id="bodypage">
-        <div id="links">
-          <nav id="pageslinks">
-            <a href="https://www.linkedin.com/in/hungryvovka/">
-                <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="Ссылка на LinkedIn">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CV</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="allinfo">
+      <header>
+         <div class="pic">
+            <img src="./img/MyPhoto.jpg" alt="Vladimir Rukavishnikov">
+         </div>
+         <div class="my-title">
+            <div class="my-name">
+               <h1>Vladimir Rukavishnikov</h1>
+            </div>
+            <div class="my-job">
+               <h3>Junior Full-stack Developer</h3>
+            </div>
+            <div class="my-links">
+            	<nav>
+            		<a href="https://www.linkedin.com/in/hungryvovka/">
+            			<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="Ссылка на LinkedIn">
+            		</a>
+            		<a href="https://twitter.com/HungryVovka">
+            			<img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Ссылка на Twitter">
+            		</a>
+            		<a href="https://t.me/HungryVovka/">
+            			<img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Ссылка на Telegram">
+            		</a>
+            		<a href="https://github.com/HungryVovka/">
+            			<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Ссылка на GitHub">
+            		</a>
+            	</nav>
+            </div>
+         </div>
+      </header>
+      <nav>
+         <ul class="navigation">
+            <li>
+               <a href="#communication">Contact info</a>
+            </li>
+            <li>
+               <a href="#about-me">About Me</a>
+            </li>
+            <li>
+               <a href="#technical-stack">Technical stack</a>
+            </li>
+            <li>
+               <a href="#code">Code</a>
+            </li>
+            <li>
+               <a href="#education">Education</a>
+            </li>
+            <li>
+               <a href="#languages">Languages</a>
+            </li>
+         </ul>
+      </nav>
+      <main class="major">
+         <section id="communication">
+            <h2>Contact info</h2>
+            <ul>
+               <li>
+                  <strong>
+                     Address:
+                  </strong> 
+                  Russia, Chaikovsky
+               </li>
+               <li><strong>Phone:</strong> +7 (922) 2 40 63 96</li>
+               <li><strong>E-mail:</strong> RukavishnikovVladimirMail@gmail.com</li>
+               <li><strong>GitHub:</strong> HungryVovka</li>
+               <li><strong>Discord:</strong> HungryVovka #4635 </li>
+            </ul>
+         </section>
+         <section id="about-me">
+            <h2>About me</h2>
+            <p>Programmer and economist. I am interested in everything that I can take on and constantly improve my professional skills in languages and their frameworks. Despite the lack of an official profile education in programming, I am engaged in self-study.</p>
+         </section>
+         <section id="technical-stack">
+            <h2>Technical Stack</h2>
+            <ul>
+               <li>Python</li>
+               <li>JavaScript</li>
+               <li>HTML</li>
+               <li>CSS3</li>
+               <li>Git/GitHub</li>
+               <li>Django, Matplotlib, Keras, TensorFlow</li>
+            </ul>
+         </section>
+         <section id="code">
+            <h2>Code</h2>
+            <pre><code>function animals(heads, legs){
+            	var farm = [];
+            	farm.push(2*heads - legs/2);
+            	farm.push(legs/2 - heads);
+            	if (legs % 2 == 0 && farm[0] >= 0 && farm[1] >= 0){
+            		return farm;
+            	} else {
+            		return 'No solutions';
+            	}
+            }</code></pre>
+         </section>
+         <section id="education">
+            <h2>Education</h2>
+            <ul>
+               <li>Izhevsk State Technical University (ISTU):
+                  <ul>
+                     <li>
+                        Bachelor, Economics
+                     </li>
+                     <li>
+                        Magister, Finance and credit
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </section>
+         <section id="languages">
+            <h2>Languages</h2>
+            <ul>
+               <li>English - B2</li>
+               <li>Russian - native language</li>
+            </ul>
+         </section>
+      </main>
+      <footer>
+         <div class="page-footer">
+            <div class="copyright">
+               <p>&#xa9 2022</p>
+            </div>
+            <div class="git">
+               <a href="https://github.com/HungryVovka">HungryVovka (Vladimir Rukavishnikov)</a>
+            </div>
+         </div>
+         <div class="rs-school">
+            <a href="https://rs.school/js/">
+               <img src="https://rs.school/images/rs_school_js.svg" alt="rs-school">
             </a>
-            <a href="https://twitter.com/HungryVovka">
-                <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Ссылка на Twitter">
-            </a>|
-            <a href="https://t.me/HungryVovka/">
-                <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Ссылка на Telegram">
-            </a>
-            <a href="https://github.com/HungryVovka/">
-                <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Ссылка на GitHub">
-            </a>
-          </nav>
-        <div id="mytext">
-          <h1 id="screentitle">Задание CV#1</h1>
-          <p>Добрый день! Владимир Рукавишников, 2 высших экономических образования, магистратура с отличием, имею опыт работы с 1C: Бухгалтерия.</p>
-          <p>Обладаю навыками в работе с Python (Django, Matplotlib, Keras, TensorFlow), знаком с вёрсткой в HTML5, таблицами CSS3 и в данный момент изучаю JavaScript.</p>
-          <figure id="home-image">
-            <p id="mainphoto">
-                <img src="Rukavishnikov.jpg"
-                    width="300" height="400" alt="Моя фотография с рамкой мёда">
-            </p>
-            <figcaption class="warning" align="center"><b>Доброго вам дня!</b></figcaption>
-         </figure>
-       </div>
-          <footer>
-            Ссылки на мои страницы можно посмотреть в <a href="https://github.com/HungryVovka/rsschool-cv/blob/rsschool-cv-html/README.md">README.md</a>.
-          </footer>
-      </div>
-    </body>
+         </div>
+      </footer>
+   </div>
+</body>
 </html>
