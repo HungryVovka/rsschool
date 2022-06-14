@@ -1,3 +1,7 @@
+<p align='center'>
+<img src="Rukavishnikov.jpg" width="300" height="400">
+</p>
+
 # Nice to meet you, I'm Vladimir Rukavishnikov 👋
 Programmer and economist. I have two higher educations, a bachelor's degree in economics and a master's degree in finance. Programming in Python, but also learning other programming languages. I know Django, TensorFlow and Keras frameworks.
 
